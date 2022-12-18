@@ -5,7 +5,7 @@ plugins {
     id "fabric-loom" version "0.12.48"
     id "net.nemerosa.versioning" version "2.3.0"
     id "maven-publish"
-    id "signing"
+   // id "signing"
 }
 
 group = maven_group
@@ -106,8 +106,9 @@ publishing {
         }
     }
 }
-
+/*
 signing {
     required = isReleaseVersion
     sign publishing.publications.mavenJava
 }
+*/
